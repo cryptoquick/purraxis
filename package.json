@@ -1,0 +1,44 @@
+{
+  "name": "purraxis",
+  "version": "1.0.0",
+  "description": "Praxis is the process by which a theory, lesson, or skill is enacted, embodied, or realized.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --ignore client,dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "node dist.js",
+    "babel-cli": "babel-node --plugins=transform-object-rest-spread --ignore='node_modules'"
+  },
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "babelify": "^7.3.0",
+    "body-parser": "^1.16.0",
+    "budo": "^9.4.4",
+    "config": "^1.24.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "documentdb-q-promises": "^1.6.0",
+    "express": "^4.14.0",
+    "google-cloud": "^0.45.2",
+    "lodash": "^4.17.4",
+    "morgan": "^1.7.0",
+    "preact": "^7.1.0",
+    "preact-redux": "^2.0.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "source-map-support": "^0.4.10",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+    "browserify": "^13.3.0",
+    "rollupify": "^0.3.9",
+    "uglifyify": "^3.0.4"
+  }
+}
